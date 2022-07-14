@@ -1,4 +1,4 @@
-# variable "example" {
-#   description = "This is an example variable"
-#   type        = string
-# }
+variable "domain_name" {
+  description = "The DNS zone name"
+  type        = string
+}

@@ -3,14 +3,12 @@ terraform {
     aws = {
       source  = "hashicorp/aws"
       version = "~> 3.71.0"
+      configuration_aliases = [
+        aws.cluster,
+        aws.parent,
+      ]
     }
-
-    tls = {
-      source  = "hashicorp/tls"
-      version = ">= 3.4.0"
-    }
-
   }
 
-  required_version = ">= 0.14.0"
+  required_version = ">= 1.2.2"
 }
