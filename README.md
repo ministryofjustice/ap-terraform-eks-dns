@@ -1,3 +1,7 @@
+# ap-terraform-eks-dns
+
+Creates DNS NS entries for EKS clusters in the AP.
+
 <!-- BEGIN_TF_DOCS -->
 ## Requirements
 
